@@ -1,4 +1,3 @@
-setwd("D:/Archivos Vero/Vero ---/victimisations -time and place")
 data<-read.csv("mvic.csv") #total victims per month (2014-2019)
 str(data)
 myts <- ts(data[,2], start=c(2014, 7), frequency=12) 
