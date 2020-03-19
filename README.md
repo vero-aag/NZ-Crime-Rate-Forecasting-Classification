@@ -1,5 +1,5 @@
 # NZ-Crime-Rate-Forecasting-Classification
-Research Project
+#Research Project
 The original data set "VICTIMS_TIMEPLACE" was downloaded from the NZ police website https://www.police.govt.nz/about-us/publications-statistics/data-and-statistics/policedatanz/victimisation-time-and-place, and it contains more than 1 million records of crime incidents or victimizations (exactly 1,014,913), from July 2014 to June 2019. Several attributes including Crime Division, Crime Subdivision, Crime Group, Territorial Authority, Day of the Week and Hour of Occurrence, Weapon, and Month/Year constitute the data set. It was noticed then that the exact date of occurrence (the day of the month) has been purposely omitted because of privacy issues.
 
 From this data set, two more were generated: One for forecasting crime rate with time series ("mvic.csv") and the other for pattern visualization and classification.
